@@ -1,14 +1,17 @@
 {
-  "name": "6_mongoose",
+  "name": "Login App",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "c0d1ngd0j0",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
     "path": "^0.12.7"
   }
 }

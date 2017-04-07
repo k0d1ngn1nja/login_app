@@ -1,12 +1,12 @@
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-var path = require('path');
-var User = require('./User.model');
+const express = require('express'),
+	app 				= express(),
+	bodyParser  = require('body-parser'),
+	mongoose 		= require('mongoose'),
+	path 				= require('path'),
+	User 				= require('./User.model');
 
-var port = 8080;
-var db = 'mongodb://localhost/userExample'
+const port = 8080;
+const db = 'mongodb://localhost/User'
 
 mongoose.connect(db);
 
