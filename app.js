@@ -3,10 +3,10 @@ const express = require('express'),
 	bodyParser  = require('body-parser'),
 	mongoose 		= require('mongoose'),
 	path 				= require('path'),
-	User 				= require('./User.model');
+	User 				= require('./models/User.model');
 
-const port = 8080;
-const db = 'mongodb://localhost/User'
+const port = 3000;
+const db = 'mongodb://localhost/loginApp'
 
 mongoose.connect(db);
 
